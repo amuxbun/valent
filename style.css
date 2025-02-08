@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #282828;
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(45deg, #e60039, #ff1d4a);
+  padding: 50px 0;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffeb3b; /* Batman yellow */
+}
+
+.subtitle {
+  font-size: 22px;
+  font-style: italic;
+  color: #ffeb3b;
+}
+
+.main-content {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.batman-cartoon {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.batman-cartoon img {
+  width: 300px; /* Make it large for cartoon effect */
+  height: auto;
+  animation: bounce 1s ease infinite;
+}
+
+.valentine-message {
+  font-size: 24px;
+  color: #ff1d4a;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ffeb3b;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: #f4c300;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #111;
+  color: #fff;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
